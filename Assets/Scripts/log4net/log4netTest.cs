@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class log4netTest : MonoBehaviour
 {
-    private static readonly ILog Log = LogManager.GetLogger(typeof(log4netTest));
+    private static ILog Log = LogManager.GetLogger(typeof(log4netTest));
 
     void Awake()
     {
@@ -15,11 +15,13 @@ public class log4netTest : MonoBehaviour
     void Start()
     {
         Log.Debug("log4netTest Start");
+        Log = LogManager.GetLogger("Error");
         Log.Error("Error");
     }
 
     void Update()
     {
+        Log = LogManager.GetLogger("Debug");
         Log.Debug("log4netTest Update");
     }
 

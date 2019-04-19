@@ -3,3 +3,6 @@ Assembly-CSharp.csproj
 Unity-Tutorial.sln.DotSettings.user
 Unity-Tutorial.sln
 .vs/
+Library/
+Logs/
+obj/
