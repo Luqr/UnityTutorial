@@ -7,7 +7,7 @@
 
 
 ### Log4net
-Script/log4net/...
-lib/log4net.dll
-Scenes/LogScene.unity
-Assets/log4net.xml
+- Script/log4net/...
+- lib/log4net.dll
+- Scenes/LogScene.unity
+- Assets/log4net.xml
